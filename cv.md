@@ -90,3 +90,8 @@ I also participated in a group project *HeadHunter* where we used NestJS on [bac
 - [WTF: Co Ten Frontend](https://cotenfrontend.pl) - frontend HTML, CSS & JavaScript course
 - [RollingScopes School](https://github.com/rolling-scopes-school/js-fe-course-en) - JavaScript/Frontend course \(*in progress*) 
 - Udemy courses \(FE & BE)
+
+## Languages
+
+- **English**: Intermediate \(B1)
+- **Polish**: Native
