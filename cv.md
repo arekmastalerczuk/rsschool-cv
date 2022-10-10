@@ -26,3 +26,24 @@ During this I wrote my first project [*Fly a Drone*](https://armast.networkmanag
 I learned a lot, but there is still a much more to learn ahead of me, and one of the main problems was *the constant lack of time*, so I decided to quit my job and **focus on learning** JavaScript.
 
 I also started studying at [RollingScopes School](https://github.com/rolling-scopes-school/js-fe-course-en) on the *JavaScript/Frontend* course to further expand my knowledge and grow as a developer. I also showed myself that *I was wrong*, and although it is not easy, but with hard work *I will be able to do what I really like and **become a Junior JavaScript developer!***
+
+## Skills
+- HTML5, CSS3
+- JavaScript:
+    - ES6+
+    - OOP
+    - FP
+    - asynchronous
+- Node.js
+- TypeScript
+- \[BE] frameworks:
+    - Express
+    - NestJS
+- REST API
+- Databases:
+    - MySQL
+    - MongoDB
+- TypeORM
+- React
+- TDD basics \(Jest)
+- GIT, Scrum, Agile
