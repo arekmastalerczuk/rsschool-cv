@@ -70,3 +70,11 @@ You can check my projects on GitHub: [arekmastalerczuk](https://github.com/arekm
           res.json(spot);
       });
 ```
+
+## Experience
+
+In my last job, I was responsible for implementing BIP pages in subordinate units, working with clients, conducting training courses and learned semantic HTML, accessibility principles and learned CSS.
+
+In last year I attended the **MegaK** backend course and I wrote my first project [*Fly a Drone*](https://armast.networkmanager.pl) where I used Express framework on [backend](https://github.com/arekmastalerczuk/FlyADroneBack) and React library on [frontend](https://github.com/arekmastalerczuk/FlyADroneFront). I recently learned **NestJS** so I have a plan to refactor BE with that framework and add some features on BE & FE.
+
+I also participated in a group project *HeadHunter* where we used NestJS on [backend](https://github.com/Bartlomiej95/GR12-HeadHunter-backend) and React on [frontend](https://github.com/Bartlomiej95/GR12-HeadHunter-frontend) and I experienced the first GIT conflicts in teamwork. I learned then the principles of SCRUM and Agile.
