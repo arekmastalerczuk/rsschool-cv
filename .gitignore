@@ -102,3 +102,17 @@ dist
 
 # TernJS port file
 .tern-port
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### WebStorm ###
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
