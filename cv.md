@@ -47,3 +47,26 @@ I also started studying at [RollingScopes School](https://github.com/rolling-sco
 - React
 - TDD basics \(Jest)
 - GIT, Scrum, Agile
+
+## Code examples
+
+You can check my projects on GitHub: [arekmastalerczuk](https://github.com/arekmastalerczuk)
+
+```javascript
+  spotRouter
+      .get('/search/:spotAddress?', async (req, res) => {
+          const spots = await SpotRecord.getAll(req.params.spotAddress ?? '');
+          res.json(spots);
+      })
+  
+      .get('/:id', async (req, res) => {
+          const spot = await SpotRecord.getOne(req.params.id);
+          res.json(spot);
+      })
+  
+      .post('/', upload.single('image'), async (req, res, next) => {
+          const spot = new SpotRecord(req.body);
+          await spot.insert();
+          res.json(spot);
+      });
+```
