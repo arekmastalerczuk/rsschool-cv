@@ -79,6 +79,17 @@ ul {
     color: white;
 }
 
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.footer i {
+    margin-right: 5px;
+    font-size: 30px;
+}
+
 .footer img {
     height: 100px;
     padding: 10px 0;
