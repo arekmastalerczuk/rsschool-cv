@@ -19,6 +19,7 @@ body {
 
 .column-left {
     width: 30%;
+    background: rgba(230, 230, 230, 0.5);
 }
 
 .column-right {
@@ -90,7 +91,7 @@ body {
 }
 
 .section__title {
-    margin: 0 auto;
+    margin: 40px auto;
     text-align: center;
     width: 50%;
     text-transform: uppercase;
@@ -101,11 +102,26 @@ body {
 
 .section__title--underline {
     width: 90%;
-    margin: 0 auto 0 0;
+    margin: 0 auto 0 20px;
     background: none;
     color: var(--default-font-color);
     text-align: left;
     border-bottom: 2px solid var(--default-font-color);
+}
+
+.skills__list {
+    list-style: square;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+.skills__list--secondary > li {
+    list-style: disc;
+    font-weight: normal;
 }
 
 .wrapper {
