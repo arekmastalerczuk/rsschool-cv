@@ -85,8 +85,28 @@
                 <p>I learned a lot, but there is still a much more to learn ahead of me, and one of the main problems was the constant lack of time, so I decided to quit my job and <strong>focus on learning</strong> JavaScript.</p>
                 <p>I also started studying at <a href="https://github.com/rolling-scopes-school/js-fe-course-en" target="_blank">RollingScopes School</a> on the <em>JavaScript/Frontend</em> course to further expand my knowledge and grow as a developer. I also showed myself that <em>I was wrong</em>, and although it is not easy, but with hard work <em>I will be able to do what I really like and <strong>become a Junior JavaScript developer!</strong></em></p>
             </section>
-            <section>
+            <section class="code-examples">
                 <h3 class="section__title section__title--underline">Code examples</h3>
+                <p>You can check my projects on GitHub: <i class="fab fa-github"></i><a href="https://github.com/arekmastalerczuk" target="_blank">arekmastalerczuk</a></p>
+<pre><code>
+    spotRouter
+    .get('/search/:spotAddress?', async (req, res) => {
+    const spots = await SpotRecord.getAll(req.params.spotAddress ?? '');
+    res.json(spots);
+    })
+
+    .get('/:id', async (req, res) => {
+    const spot = await SpotRecord.getOne(req.params.id);
+    res.json(spot);
+    })
+
+    .post('/', upload.single('image'), async (req, res, next) => {
+    const spot = new SpotRecord(req.body);
+    await spot.insert();
+    res.json(spot);
+    });
+</code>
+</pre>
             </section>
             <section>
                 <h3 class="section__title section__title--underline">Experience</h3>
