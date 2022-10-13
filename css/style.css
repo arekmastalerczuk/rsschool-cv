@@ -61,6 +61,15 @@ body {
     list-style: none;
 }
 
+.education h4 {
+    margin-left: 20px;
+}
+
+.education ul {
+    list-style: square;
+    line-height: 1.5em;
+}
+
 .footer {
     background-color: #333;
     padding: 20px 10px;
