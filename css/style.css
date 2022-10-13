@@ -53,6 +53,10 @@ body {
     color: white;
 }
 
+.language ul {
+    list-style: square;
+}
+
 .person__avatar {
     width: 200px;
     height: 200px;
@@ -91,7 +95,7 @@ body {
 }
 
 .section__title {
-    margin: 40px auto;
+    margin: 50px auto 20px;
     text-align: center;
     width: 50%;
     text-transform: uppercase;
