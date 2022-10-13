@@ -26,6 +26,11 @@ body {
     width: 70%;
 }
 
+.column-right p {
+    margin: 15px 60px 0 20px;
+    line-height: 1.5em;
+}
+
 .contact a {
     text-decoration: none;
     color: var(--default-font-color);
@@ -106,7 +111,7 @@ body {
 
 .section__title--underline {
     width: 90%;
-    margin: 0 auto 0 20px;
+    margin: 30px auto 0 20px;
     background: none;
     color: var(--default-font-color);
     text-align: left;
@@ -119,13 +124,14 @@ body {
     margin-bottom: 10px;
 }
 
-li:not(:last-child) {
-    margin-bottom: 3px;
+.summary a {
+    color: var(--default-font-color);
 }
 
 .skills__list--secondary > li {
     list-style: disc;
     font-weight: normal;
+    line-height: 1.4em;
 }
 
 .wrapper {
