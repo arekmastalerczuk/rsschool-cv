@@ -7,3 +7,63 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    color: #4A4E69;
+}
+
+.person__details {
+    display: flex;
+}
+
+.wrapper {
+    width: 1170px;
+    max-width: 100%;
+    margin: 50px auto;
+    box-shadow: 20px 20px 50px #ccc;
+}
+
+.column-left {
+    width: 30%;
+    background-color: #bbb;
+}
+
+.column-right {
+    width: 70%;
+    background-color: #aaa;
+}
+
+.person__avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #9A8C98;
+    margin: 30px
+}
+
+.person__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person__header div {
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.person__name, .person__profession {
+    font-family: 'Architects Daughter', Arial, sans-serif;
+}
+
+.person__name {
+    font-size: 3.5em;
+    letter-spacing: 5px;
+}
+
+.person__profession {
+    font-size: 2em;
+}
