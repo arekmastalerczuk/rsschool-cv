@@ -17,19 +17,39 @@ body {
     color: var(--default-font-color);
 }
 
-.footer {
-    background-color: #333;
-    padding: 20px 10px;
-    margin-top: 20px;
-    color: white;
-}
-
 .column-left {
     width: 30%;
 }
 
 .column-right {
     width: 70%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--default-font-color);
+}
+
+.contact i {
+    width: 30px;
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+.contact img {
+    margin-right: 15px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px 10px;
+    margin-top: 20px;
+    color: white;
 }
 
 .person__avatar {
