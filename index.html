@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,7 +81,7 @@
                 <p><strong>The milestone</strong> was taking the backend course <strong><a href="https://www.megak.pl" target="_blank">MegaK.</a></strong></p>
                 <p>I really focused on learning a year ago, when during the course, in addition to gaining knowledge, I started writing my own code almost every day and learning backend technologies.</p>
                 <p>During that time I became more familiar with JavaScript, Node.js, Express and NestJS frameworks, learned what a REST API is and how databases work. I learned TypeScript, React, the basics of TDD (Jest) and how GIT works.</p>
-                <p>During this I wrote my first project <em><a href="https://armast.networkmanager.pl" target="_blank">Fly a Drone</a></em> combining <a href="https://github.com/arekmastalerczuk/FlyADroneBack" target="_blank">backend</a> (Express) and <a href="https://github.com/arekmastalerczuk/FlyADroneFront" target="_blank">frontend</a> (React). Now I have a plan to refactor BE into <strong>NestJS</strong> and add some features on BE & FE like authorisation and authentication, file handling etc. I also participated in a group project <em>HeadHunter</em> where we used NestJS on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-backend" target="_blank">backend</a> and React on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-frontend" target="_blank">frontend</a> and I experienced the first GIT conflicts in teamwork.</p>
+                <p>During this I wrote my first project <em><a href="https://armast.networkmanager.pl" target="_blank">Fly a Drone</a></em> combining <a href="https://github.com/arekmastalerczuk/FlyADroneBack" target="_blank">backend</a> (Express) and <a href="https://github.com/arekmastalerczuk/FlyADroneFront" target="_blank">frontend</a> (React). Now I have a plan to refactor BE into <strong>NestJS</strong> and add some features on BE &amp; FE like authorisation and authentication, file handling etc. I also participated in a group project <em>HeadHunter</em> where we used NestJS on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-backend" target="_blank">backend</a> and React on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-frontend" target="_blank">frontend</a> and I experienced the first GIT conflicts in teamwork.</p>
                 <p>I learned a lot, but there is still a much more to learn ahead of me, and one of the main problems was the constant lack of time, so I decided to quit my job and <strong>focus on learning</strong> JavaScript.</p>
                 <p>I also started studying at <a href="https://github.com/rolling-scopes-school/js-fe-course-en" target="_blank">RollingScopes School</a> on the <em>JavaScript/Frontend</em> course to further expand my knowledge and grow as a developer. I also showed myself that <em>I was wrong</em>, and although it is not easy, but with hard work <em>I will be able to do what I really like and <strong>become a Junior JavaScript developer!</strong></em></p>
             </section>
@@ -90,17 +90,17 @@
                 <p>You can check my projects on GitHub: <i class="fab fa-github"></i><a href="https://github.com/arekmastalerczuk" target="_blank">arekmastalerczuk</a></p>
 <pre><code>
     spotRouter
-    .get('/search/:spotAddress?', async (req, res) => {
+    .get('/search/:spotAddress?', async (req, res) =&gt; {
     const spots = await SpotRecord.getAll(req.params.spotAddress ?? '');
     res.json(spots);
     })
 
-    .get('/:id', async (req, res) => {
+    .get('/:id', async (req, res) =&gt; {
     const spot = await SpotRecord.getOne(req.params.id);
     res.json(spot);
     })
 
-    .post('/', upload.single('image'), async (req, res, next) => {
+    .post('/', upload.single('image'), async (req, res, next) =&gt; {
     const spot = new SpotRecord(req.body);
     await spot.insert();
     res.json(spot);
@@ -111,7 +111,7 @@
             <section class="experience">
                 <h3 class="section__title section__title--underline">Experience</h3>
                 <p>In my last job, I was responsible for implementing BIP pages in subordinate units, working with clients, conducting training courses and learned semantic HTML, accessibility principles and learned CSS.</p>
-                <p>In last year I attended the <strong>MegaK</strong> backend course and I wrote my first project <em><a href="https://armast.networkmanager.pl" target="_blank">Fly a Drone</a></em> where I used Express framework on <a href="https://github.com/arekmastalerczuk/FlyADroneBack" target="_blank">backend</a> and React library on <a href="https://github.com/arekmastalerczuk/FlyADroneFront" target="_blank">frontend</a>. I recently learned <strong> NestJS</strong> so I have a plan to refactor BE with that framework and add some features on BE & FE.</p>
+                <p>In last year I attended the <strong>MegaK</strong> backend course and I wrote my first project <em><a href="https://armast.networkmanager.pl" target="_blank">Fly a Drone</a></em> where I used Express framework on <a href="https://github.com/arekmastalerczuk/FlyADroneBack" target="_blank">backend</a> and React library on <a href="https://github.com/arekmastalerczuk/FlyADroneFront" target="_blank">frontend</a>. I recently learned <strong> NestJS</strong> so I have a plan to refactor BE with that framework and add some features on BE &amp; FE.</p>
                 <p>I also participated in a group project <em>HeadHunter</em> where we used NestJS on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-backend" target="_blank">backend</a> and React on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-frontend" target="_blank">frontend</a> and I experienced the first GIT conflicts in teamwork. I learned then the principles of SCRUM and Agile.</p>
             </section>
             <section class="education">
@@ -124,9 +124,9 @@
                 <h4>Courses</h4>
                 <ul>
                     <li><a href="https://www.megak.pl" target="_blank">MegaK</a> - backend JavaScript course (Node.JS, Express, TypeScript, MySQL, MongoDB, NestJS, React)</li>
-                    <li><a href="https://cotenfrontend.pl" target="_blank">WTF: Co Ten Frontend</a> - frontend HTML, CSS & JavaScript course</li>
+                    <li><a href="https://cotenfrontend.pl" target="_blank">WTF: Co Ten Frontend</a> - frontend HTML, CSS &amp; JavaScript course</li>
                     <li><a href="https://github.com/rolling-scopes-school/js-fe-course-en" target="_blank">RollingScopes School</a> - JavaScript/Frontend course <em>(in progress)</em></li>
-                    <li>Udemy courses (FE & BE)</li>
+                    <li>Udemy courses (FE &amp; BE)</li>
                 </ul>
             </section>
         </div>
