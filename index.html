@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arkadiusz Mastalerczuk</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="person__header">
+        <img src="./images/yoda.png" alt="yoda avatar" class="person__avatar">
+        <div>
+            <h1 class="person__name">Arkadiusz Mastalerczuk</h1>
+            <h2 class="person__profession"><em>Wannabe </em>JavaScript Developer</h2>
+        </div>
+    </header>
+    <main class="person__details">
+        <div class="column-left">
+            <section class="contact">
+                <h3 class="section__title">Contact</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i><a href="mailto:areqmas@gmail.com">areqmas@gmail.com</a></li>
+                    <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/arkadiusz-mastalerczuk" target="_blank">arkadiusz-mastalerczuk</a></li>
+                    <li><i class="fab fa-github"></i><a href="https://github.com/arekmastalerczuk" target="_blank">arekmastalerczuk</a></li>
+                    <li><img src="./images/codewars.png" alt=""><a href="https://www.codewars.com/users/arekmastalerczuk" target="_blank">arekmastalerczuk</a></li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h3 class="section__title">Skills</h3>
+                <ul class="skills__list">
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript:
+                        <ul class="skills__list skills__list--secondary">
+                            <li>ES6+</li>
+                            <li>OOP</li>
+                            <li>FP</li>
+                            <li>asynchronous</li>
+                        </ul>
+                    </li>
+                    <li>Node.js</li>
+                    <li>TypeScript</li>
+                    <li>[BE] frameworks:
+                        <ul class="skills__list skills__list--secondary">
+                            <li>Express</li>
+                            <li>NestJS</li>
+                        </ul>
+                    </li>
+                    <li>REST API</li>
+                    <li>Databases:
+                        <ul class="skills__list skills__list--secondary">
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </li>
+                    <li>TypeORM</li>
+                    <li>React</li>
+                    <li>TDD basics (Jest)</li>
+                    <li>GIT, SCRUM, Agile</li>
+                </ul>
+            </section>
+            <section class="language">
+                <h3 class="section__title">Languages</h3>
+                <ul>
+                    <li><b>English: </b>Intermediate (B1)</li>
+                    <li><b>Polish: </b>Native</li>
+                </ul>
+            </section>
+        </div>
+        <div class="column-right">
+            <section class="summary">
+                <h3 class="section__title section__title--underline">Summary</h3>
+                <p>I’ve always claimed that <em>I’m too weak to be <strong>a developer</strong></em>. It seemed to me that it was very difficult (and I still think so, as there is a lot of knowledge to learn) and I wouldn’t be able to do it.</p>
+                <p>However, I decided that I wouldn’t give up and show myself that I was wrong and that <em>I could become a developer!</em></p>
+                <p>I started to learn frontend technologies (HTML, CSS, JS) about two years ago, with ups and downs.</p>
+                <p><strong>The milestone</strong> was taking the backend course <strong><a href="https://www.megak.pl" target="_blank">MegaK.</a></strong></p>
+                <p>I really focused on learning a year ago, when during the course, in addition to gaining knowledge, I started writing my own code almost every day and learning backend technologies.</p>
+                <p>During that time I became more familiar with JavaScript, Node.js, Express and NestJS frameworks, learned what a REST API is and how databases work. I learned TypeScript, React, the basics of TDD (Jest) and how GIT works.</p>
+                <p>During this I wrote my first project <em><a href="https://armast.networkmanager.pl" target="_blank">Fly a Drone</a></em> combining <a href="https://github.com/arekmastalerczuk/FlyADroneBack" target="_blank">backend</a> (Express) and <a href="https://github.com/arekmastalerczuk/FlyADroneFront" target="_blank">frontend</a> (React). Now I have a plan to refactor BE into <strong>NestJS</strong> and add some features on BE &amp; FE like authorisation and authentication, file handling etc. I also participated in a group project <em>HeadHunter</em> where we used NestJS on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-backend" target="_blank">backend</a> and React on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-frontend" target="_blank">frontend</a> and I experienced the first GIT conflicts in teamwork.</p>
+                <p>I learned a lot, but there is still a much more to learn ahead of me, and one of the main problems was the constant lack of time, so I decided to quit my job and <strong>focus on learning</strong> JavaScript.</p>
+                <p>I also started studying at <a href="https://github.com/rolling-scopes-school/js-fe-course-en" target="_blank">RollingScopes School</a> on the <em>JavaScript/Frontend</em> course to further expand my knowledge and grow as a developer. I also showed myself that <em>I was wrong</em>, and although it is not easy, but with hard work <em>I will be able to do what I really like and <strong>become a Junior JavaScript developer!</strong></em></p>
+            </section>
+            <section class="code-examples">
+                <h3 class="section__title section__title--underline">Code examples</h3>
+                <p>You can check my projects on GitHub: <i class="fab fa-github"></i><a href="https://github.com/arekmastalerczuk" target="_blank">arekmastalerczuk</a></p>
+<pre><code>
+    spotRouter
+    .get('/search/:spotAddress?', async (req, res) =&gt; {
+    const spots = await SpotRecord.getAll(req.params.spotAddress ?? '');
+    res.json(spots);
+    })
+
+    .get('/:id', async (req, res) =&gt; {
+    const spot = await SpotRecord.getOne(req.params.id);
+    res.json(spot);
+    })
+
+    .post('/', upload.single('image'), async (req, res, next) =&gt; {
+    const spot = new SpotRecord(req.body);
+    await spot.insert();
+    res.json(spot);
+    });
+</code>
+</pre>
+            </section>
+            <section class="experience">
+                <h3 class="section__title section__title--underline">Experience</h3>
+                <p>In my last job, I was responsible for implementing BIP pages in subordinate units, working with clients, conducting training courses and learned semantic HTML, accessibility principles and learned CSS.</p>
+                <p>In last year I attended the <strong>MegaK</strong> backend course and I wrote my first project <em><a href="https://armast.networkmanager.pl" target="_blank">Fly a Drone</a></em> where I used Express framework on <a href="https://github.com/arekmastalerczuk/FlyADroneBack" target="_blank">backend</a> and React library on <a href="https://github.com/arekmastalerczuk/FlyADroneFront" target="_blank">frontend</a>. I recently learned <strong> NestJS</strong> so I have a plan to refactor BE with that framework and add some features on BE &amp; FE.</p>
+                <p>I also participated in a group project <em>HeadHunter</em> where we used NestJS on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-backend" target="_blank">backend</a> and React on <a href="https://github.com/Bartlomiej95/GR12-HeadHunter-frontend" target="_blank">frontend</a> and I experienced the first GIT conflicts in teamwork. I learned then the principles of SCRUM and Agile.</p>
+            </section>
+            <section class="education">
+                <h3 class="section__title section__title--underline">Education</h3>
+                <h4>School Education</h4>
+                <ul>
+                    <li>Katowice Institute of Information Technologies (WSTI)</li>
+                    <li>Silesian Univercity of Technology in Katowice</li>
+                </ul>
+                <h4>Courses</h4>
+                <ul>
+                    <li><a href="https://www.megak.pl" target="_blank">MegaK</a> - backend JavaScript course (Node.JS, Express, TypeScript, MySQL, MongoDB, NestJS, React)</li>
+                    <li><a href="https://cotenfrontend.pl" target="_blank">WTF: Co Ten Frontend</a> - frontend HTML, CSS &amp; JavaScript course</li>
+                    <li><a href="https://github.com/rolling-scopes-school/js-fe-course-en" target="_blank">RollingScopes School</a> - JavaScript/Frontend course <em>(in progress)</em></li>
+                    <li>Udemy courses (FE &amp; BE)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p><i class="fab fa-github"></i><a href="https://github.com/arekmastalerczuk" target="_blank">arekmastalerczuk</a></p>
+        <p><span>&copy; 2022</span> Arkadiusz Mastalerczuk</p>
+        <a href="https://github.com/rolling-scopes-school/js-fe-course-en" target="_blank"><img src="./images/rsschool.svg" alt="RollingScopes School logo"></a>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --default-font-color: #4A4E69;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--default-font-color);
+}
+
+ul {
+    line-height: 2em;
+    list-style-type: square;
+}
+
+.code-examples i {
+    font-size: 20px;
+    margin: 0 5px 0 10px;
+    padding: 10px 0;
+}
+
+.column-left {
+    width: 30%;
+    background: rgba(230, 230, 230, 0.5);
+}
+
+.column-right {
+    width: 70%;
+}
+
+.column-right a {
+    color: var(--default-font-color);
+}
+
+.column-right p {
+    margin: 15px 60px 0 20px;
+    line-height: 1.5em;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--default-font-color);
+}
+
+.contact i {
+    width: 30px;
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+.contact img {
+    margin-right: 15px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.education h4 {
+    margin: 30px 0 0 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 20px 10px;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.footer i {
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.footer img {
+    height: 100px;
+    padding: 10px 0;
+}
+
+.footer p {
+    font-size: 20px;
+    font-family: 'Architects Daughter', Arial, sans-serif;
+    letter-spacing: 4px;
+}
+
+.footer span {
+    margin-right: 20px;
+}
+
+.person__avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #9A8C98;
+    margin: 30px 0 30px 80px;
+}
+
+.person__details {
+    display: flex;
+}
+
+.person__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person__header div {
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.person__name, .person__profession {
+    font-family: 'Architects Daughter', Arial, sans-serif;
+}
+
+.person__name {
+    font-size: 3.5em;
+    letter-spacing: 5px;
+}
+
+.person__profession {
+    font-size: 2em;
+}
+
+.section__title {
+    margin: 70px auto 20px;
+    text-align: center;
+    width: 50%;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.section__title--underline {
+    width: 90%;
+    margin: 30px auto 0 20px;
+    background: none;
+    color: var(--default-font-color);
+    text-align: left;
+    border-bottom: 2px solid var(--default-font-color);
+}
+
+.skills__list {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skills__list--secondary > li {
+    list-style: disc;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+
+.wrapper {
+    width: 1170px;
+    max-width: 100%;
+    margin: 50px auto;
+    box-shadow: 20px 20px 50px #ccc;
+}
